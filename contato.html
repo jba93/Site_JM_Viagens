@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+
+	<head>
+		<!-- Required meta tags -->
+	    <meta charset="utf-8">
+	    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+	    <!-- Bootstrap CSS -->
+	    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+
+	    <!-- Para usar o ícone do WhatsApp -->
+	    <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+
+		<title>JM Viagens - Contato</title>
+		<link rel="icon" href="_img/icone.png">
+
+		<link rel="stylesheet" type="text/css" href="estilo.css">
+	</head>
+
+	<body class="container">
+		<nav class="navbar"> 
+			<div class="navbar-header">
+				<a href="index.html" class="navbar-brand"><img src="_img/logo.png" class="img-responsive"></a>
+			</div>
+
+			<div class="menu navbar-right navbar-text">
+				<a href="index.html">Home</a> |
+	            <a href="quem_somos.html">Quem somos</a> |
+	            <a href="contato.html">Contato</a>
+		    </div>
+		</nav>
+
+		<header>
+			<div class="row">
+				<img src="_img/contato.png" class="img-responsive">
+			</div>
+		</header>
+
+		<div class="row">
+			<div class="col-md-6">
+
+				<form>
+					<div class="form-group"> 
+	                  	<label for="nome">Nome *</label>
+		                <input id="nome" type="text" class="form-control" placeholder="Ex: Ana da Silva" required="">
+                    </div>
+
+					<div class="form-group">
+						<label for="email">E-mail *</label>
+                      	<input id="email" type="email" class="form-control" placeholder="Ex: anasilva@gmail.com" required="">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="telefone">Telefone</label>
+                        <input id="telefone" type="telephone" class="form-control" placeholder="Ex: (17)1234-5678" pattern="\([0-9]{2}\)[0-9]{4,5}-[0-9]{4}$">
+                    </div>
+
+					<div class="form-group"> 
+                        <label for="mensagem">Mensagem *</label><br/>
+                        <textarea id="mensagem" class="form-control" rows="5" placeholder="Digite sua mensagem aqui." required=""></textarea>
+                   </div>
+
+                    <div class="checkbox">
+                        <label>
+                        	<input type="checkbox" checked=""> Desejo receber novidades e promoções da JM Viagens.
+                        </label>
+                    </div>
+
+					<button type="submit" value="Enviar" class="btn btn-md">Enviar</button>
+					
+				</form>
+			</div>
+
+			<div class="col-md-6" id="contatos">
+				<p><span class="glyphicon glyphicon-envelope"></span> E-mail: contato@jmviagens.com.br</p>
+				<p><span class="glyphicon glyphicon-earphone"></span> Telefone: +55 17 1234-5678</p>
+				<p><i class="fab fa-whatsapp"></i> WhatsApp: +55 17 91234-5678</p>
+
+			</div>
+		</div>
+
+		<footer>
+			<div class="row">
+				<div class="col text-center">
+					<p><span class="glyphicon glyphicon-map-marker"></span>
+					JM Viagens <br/>
+					Av. Brasilusa, 1547 <br/>
+					Centro - São José do Rio Preto/SP</p>
+				</div>
+			</div>
+
+			<div class="row">
+				<div class="col text-center">
+					<p><h5>&reg;Todos os direitos reservados.</h5></p>
+				</div>
+			</div>
+
+			<div class="row">
+				<img src="_img/rodape.png" class="img-responsive">
+			</div>
+		</footer>
+	</body>
+
+</html>

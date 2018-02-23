@@ -1,0 +1,41 @@
+p, .input-group{
+	padding: 10px;
+}
+
+a{
+	color: #2B818E;
+	font-weight: bold;
+}
+
+a:hover{
+	text-decoration: none;
+	color: #F8AA00;
+	transition-duration: 0.5s;
+}
+
+.btn{
+	background: #2B818E;
+	color: white;
+}
+
+.btn:hover{
+	background: #F8AA00;
+	color: white;
+	transition-duration: 0.5s;
+}
+
+.menu{
+	padding-top: 20px;
+}
+
+p, a, label, .input-group{
+	font-family: arial;
+	font-size: 15px;
+}
+
+@media screen and (max-width: 767px){
+	p, a, label, .input-group{
+	font-family: arial;
+	font-size: 20px;
+	}
+}
